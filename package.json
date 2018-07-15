@@ -1,0 +1,25 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "pw: Moneyman Twiiter Access level\tRead and write (modify app permissions) Consumer Key (API Key)\tiR5nPszMIdPxZBQgioiHGWvwf (manage keys and access tokens) Callback URL\tNone Sign in with Twitter\tYes App-only authentication\thttps://api.twitter.com/oauth2/token Request token URL\thttps://api.twitter.com/oauth/request_token Authorize URL\thttps://api.twitter.com/oauth/authorize Access token URL\thttps://api.twitter.com/oauth/access_token",
+  "main": "keys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkato27/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pkato27/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/pkato27/liri-node-app#readme",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "node-spotify-api": "^1.0.7",
+    "twitter": "^1.7.1"
+  }
+}
