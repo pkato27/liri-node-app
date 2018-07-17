@@ -35,15 +35,14 @@ var getTweets = function () {
   });
 
 }
-// getTweets();
+
 
 var getMovie = (movieName) =>{
   var url = "http://www.omdbapi.com/?t=" + movieName + "&y=&plot=full&tomatoes=true&apikey=trilogy";
 
   request(url, function (error, response, body) {
-    if(error){console.log('error:', error)}; // Print the error if one occurred
-    // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-    // console.log('body:', body); // Print the HTML for the Google homepage.
+    if(error){console.log('error:', error)}; 
+
     let jsonData = JSON.parse(body);
     console.log('Title: ' + jsonData.Title + " | "+
                 'Year: ' + jsonData.Year + " | "+ 
@@ -73,7 +72,7 @@ var getSpotify = function(songName){
   });
 }
 
-// getSpotify();
+
 
 let pick = function(caseData, functionData) {
   switch(caseData){
