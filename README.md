@@ -1,5 +1,5 @@
 # liri-node-app
-pw: Moneyman
+
 Twiiter
 Access level	Read and write (modify app permissions)
 Consumer Key (API Key)	iR5nPszMIdPxZBQgioiHGWvwf (manage keys and access tokens)
